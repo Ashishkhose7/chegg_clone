@@ -39,6 +39,8 @@ li{
     width: 32%;
     border-radius: 5px;
     padding: 2px;
+    display: flex;
+    justify-content: space-between;
    
 }
 .searchbox:hover{
@@ -50,6 +52,7 @@ li{
     padding: 6px;
     font-size: large;
     border: none;
+    outline: none;
 }
 .btn{
     padding: 8px 14px;
@@ -166,6 +169,7 @@ a{
     display: flex;
     flex-wrap: wrap;
     overflow: hidden;
+    justify-content: space-around;
 }
 .div2card1{
        border: 1.2px solid darkgray;
